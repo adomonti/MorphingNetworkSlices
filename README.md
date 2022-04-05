@@ -3,7 +3,15 @@
 * Ryu
 * Mininet
 * Python & Python3
-* * adad
+  * Python3 os
+  * Python3 time
+  * Python3 requests
+  * Python3 time
+  * Python mininet.topo
+  * Python mininet.net
+  * Python mininet.log
+  * Python mininet.cli
+  * Python mininet.node
 # What it does?
 From a topology as a star topology you can choose a set of hosts to put in a linear sliced network.
 # How it works?
