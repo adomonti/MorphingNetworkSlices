@@ -1,4 +1,9 @@
 # Morphing Network Slices
+# Prerequisites
+* Ryu
+* Mininet
+* Python & Python3
+* * adad
 # What it does?
 From a topology as a star topology you can choose a set of hosts to put in a linear sliced network.
 # How it works?
