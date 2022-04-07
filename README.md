@@ -6,14 +6,13 @@
   * Python3 os
   * Python3 time
   * Python3 requests
-  * Python3 time
   * Python mininet.topo
   * Python mininet.net
   * Python mininet.log
   * Python mininet.cli
   * Python mininet.node
 ## What it does?
-From a topology as a star topology you can choose a set of hosts to put in a linear sliced network.
+From a fixed startopology you can choose a set of hosts to put in a linear sliced network and the remaining hosts will be kept in the star topology.
 ## How it works?
 This code works on writing in the switches the rules (thanks to Rest API of Ryu) for the packets inside the sliced network and outside.
 ## How to run it:
