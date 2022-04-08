@@ -1,6 +1,6 @@
 # Morphing Network Slices
 ## Prerequisites
-* Linux OS (tested on Ubuntu 20.04)
+* Linux OS (tested on [Ubuntu 20.04](https://releases.ubuntu.com/20.04/))
 * [Ryu](https://ryu-sdn.org/)
 * [Mininet](http://mininet.org/)
 * [Python & Python3](https://www.python.org/)
