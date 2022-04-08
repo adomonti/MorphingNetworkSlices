@@ -33,5 +33,7 @@ git clone https://github.com/adomonti/MorphingNetworkSlices.git
 
 ## Authors
 [adomonti](https://github.com/adomonti)
+
 [jvj00](https://github.com/jvj00)
+
 [TheVSNA](https://github.com/TheVSNA)
