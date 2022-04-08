@@ -17,6 +17,7 @@ Project done with collaboration with University of Trento (DISI department) for 
 From a fixed startopology you can choose a set of hosts to put in a linear sliced network and the remaining hosts will be kept in the star topology.
 This code works on writing in the switches the rules (thanks to Rest API of Ryu) for the packets inside the sliced network and outside.
 ## Visuals
+The Topology:
 ![alt text](https://github.com/adomonti/MorphingNetworkSlices/blob/main/images/topology.png)
 ## Installation
 You have to install all the prerequisites above. Then you can easily install our application by simply downloading this repository with command:
