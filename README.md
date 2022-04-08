@@ -14,7 +14,7 @@
   * Python mininet.node
 ## Description
 Project done with collaboration of University of Trento (DISI department) for the exam of "Softwarized and Virtualized Mobile Networks".
-From a fixed startopology you can choose a set of hosts to put in a linear sliced network and the remaining hosts will be kept in the star topology.
+From a fixed star topology you can choose a set of hosts to put in a sliced linear topology network and the remaining hosts will be put in the sliced star topology network.
 This code works on writing in the switches the rules (thanks to Rest API of Ryu) for the packets inside the sliced network and outside.
 ## Visuals
 The Topology:
