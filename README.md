@@ -21,7 +21,7 @@ This code works on writing in the switches the rules (thanks to Rest API of Ryu)
 ## Installation
 You have to install all the prerequisites above. Then you can easily install our application by simply downloading this repository with command:
 ```
-git clone https://github.com/jvj00/MorphingNetworkSlices.git
+git clone https://github.com/adomonti/MorphingNetworkSlices.git
 ```
 ## Usage
 1. Position in your workspace directory (where you downloaded files, eg. home directory ~/)
