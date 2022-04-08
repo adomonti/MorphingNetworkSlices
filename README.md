@@ -42,7 +42,7 @@ git clone https://github.com/adomonti/MorphingNetworkSlices.git
 1. Make sure mininet has no network setup yet -> `sudo mn -c`
 2. Run our topology `sudo python network.py`
 3. Run Ryu controller with rest api `ryu-manager ryu.app.simple_switch_13 ryu.app.ofctl_rest`
-4. Run our app `python3 test_morphing.py` and follow the instruction printed on the screen (look the topology and choose hosts to put in linear slice)
+4. Run our app `python3 test_morphing.py` and follow the instruction printed on the screen (look at topology and choose hosts to put in linear slice)
 ## Authors
 [adomonti](https://github.com/adomonti)
 
