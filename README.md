@@ -41,8 +41,8 @@ git clone https://github.com/adomonti/MorphingNetworkSlices.git
 1. Position in your workspace directory (where you downloaded files, eg. home directory ~/)
 1. Make sure mininet has no network setup yet -> `sudo mn -c`
 2. Run our topology `sudo python network.py`
-3. Run Ryu controller with rest api `ryu-manager ryu.app.simple_switch_13 ryu.app.ofctl_rest`
-4. Run our app `python3 test_morphing.py` and follow the instruction printed on the screen (look at topology and choose hosts to put in linear slice)
+3. In another terminal, run Ryu controller with rest api `ryu-manager ryu.app.simple_switch_13 ryu.app.ofctl_rest`
+4. In another terminal, run our app `python3 test_morphing.py` and follow the instruction printed on the screen (look at topology and choose hosts to put in linear slice)
 5. If you want you can test with [Wireshark](https://www.wireshark.org/) in an [XTerm](https://invisible-island.net/xterm/) if a packet follow the defined route, by typing `xterm *hostname*` on mininet terminal and then `wireshark` in the xterm that appears
 6. Enjoy it!:+1: (Feel free to reuse or edit the code):smiley:
 ## Authors
