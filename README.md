@@ -1,7 +1,7 @@
 # Morphing Network Slices
 ## Prerequisites
 * [Ryu](https://ryu-sdn.org/)
-* Mininet
+* [Mininet](http://mininet.org/)
 * Python & Python3
   * Python3 os
   * Python3 time
