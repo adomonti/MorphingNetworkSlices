@@ -20,3 +20,5 @@ This code works on writing in the switches the rules (thanks to Rest API of Ryu)
 2. Run our topology `sudo python network.py`
 3. Run Ryu controller with rest api `ryu-manager ryu.app.simple_switch_13 ryu.app.ofctl_rest`
 4. Run our app `python3 test_morphing.py` and follow the instruction printed on the screen (look the topology and choose hosts to put in linear slice)
+## Our topology
+![alt text](https://github.com/adomonti/MorphingNetworkSlices/blob/main/topology.png)
