@@ -83,7 +83,5 @@ if __name__ == '__main__':
         for j in range(12):
             if i!=j:
                 hostlist[i].cmd("arp -s 192.168.1."+str(j+1)+" 00:00:00:00:00:"+"{:02x}".format(j+1))
-    #h1 = net.get('h1')
-    #h1.cmd('ip route add default via 192.168.1.1')
     CLI(net)
     net.stop()
