@@ -148,7 +148,6 @@ class Network:
                         else:
                             last2=False
                         print((" " if last1 else "|") + "      " + ("'" if last2 else "|") + "--> " + y.name)
-                        #print("|      |-->",y.name)
                         for k in range(len(y.getConnections())):
                             z=y.getConnections()[k]
                             if z is not None:
@@ -157,7 +156,6 @@ class Network:
                                 else:
                                     last3=False
                                 print((" " if last1 else "|") + "      " + (" " if last2 else "|") + "      " + ("'" if last3 else "|") + "--> " + z.name)
-                                #print("|      |      |-->",z.name)
 
 
 def orderHost(elem):
@@ -561,7 +559,6 @@ api_url="http://localhost:8080/stats/flowentry/add"
 for i in range(19):
     api="http://localhost:8080/stats/flowentry/clear/"+str(i+1)
     response = requests.delete(api) #delete all entry for every switch
-    #print(response)
 
     my_json={}
     my_json["dpid"]=(i+1)
@@ -569,10 +566,9 @@ for i in range(19):
     my_json["match"]={}
     my_json["action"]=[]
     response = requests.post(api_url,json=my_json)
-    #print(my_json)
-    #print(response)
-    #print("\n")
+    
 print("\n\nRules for line topology:\n\n")
+
 for x in rules_central_switch:  #add rules for the central switch (rules for line topology slice)
     my_json={}
     my_json["dpid"]=int(net.central_switch.getName()[1])
