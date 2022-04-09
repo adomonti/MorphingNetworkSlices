@@ -10,9 +10,6 @@ class RoutingTopo(Topo):
         hostlist=[]
         for i in range(19):
             switchlist.append(self.addSwitch("s"+str(i+1)))
-        """for i in range(12):
-            hostlist.append(self.addHost("h"+str(i+1),mac="00:00:00:00:00:"+str(i+1),ip="192.168.1."+str(i+1)))
-        """
         
         hostlist.append(self.addHost("h1",mac="00:00:00:00:00:01",ip="192.168.1.1"))
         hostlist.append(self.addHost("h2",mac="00:00:00:00:00:02",ip="192.168.1.2"))
